@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="f3f3fd527e0fec77711e53d43ba27b6d">
+  <link href="d97ffc0e617fadeb79fd22ccc02f7e2b" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="e32465df7dd957e9a1cf1d06bb72dbd2">
+  <title>Job Search</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="33edaf6d12d13fd3397234e18ac8a5e2"><img src="fd56ad2f76340a6935d6a175e2a4dfdf" alt=""></a>
+          </div>
+          <!--/.navbar-header-->
+          <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="b7056cb70e9b57a104d21650407f4f75">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jobs<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Contract Jobs</a></li>
+                      <li><a href="#">Walkin Jobs</a></li>
+                      <li><a href="#">Jobs by Location</a></li>
+                      <li><a href="#">Jobs by Function</a></li>
+                      <li><a href="#">Jobs by Industry</a></li>
+                      <li><a href="#">Jobs by Company</a></li>
+                    </ul>
+                </li>
+               
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruiters<b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                      <li><a href="#">Recruiter Updates</a></li>
+                      <li><a href="#">Recruiters you are following</a></li>
+                      <li><a href="#">Shortcodes</a></li>
+                     </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Walk-ins</a></li>
+                     
+                    </ul>
+                </li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Upload Resume</a></li>
+              </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+          <!--/.navbar-collapse-->
+      </nav>
+    <div class="container">
+      <h1>Job Search App</h1>
+      <h2>Find your perfect job today!</h2>
+      <form id="search-form">
+          <input type="text" class="form-control" placeholder="Job Title" id="search">
+          <input type="text" class="form-control" placeholder="Location" id="location">
+          <button class="btn btn-block btn-primary">Search</button>
+        </form>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+          <div class="loading-element">
+            <img src="c1f95b3c00bd1727ce483b08d71a03f9" alt="">
+          </div>
+          <div class="result-container"></div>        
+    </div>
+  </main>
+  <script src="1e9a89f6dd5d5151a83063a4ecc07df4"></script>
+</body>
+</html>

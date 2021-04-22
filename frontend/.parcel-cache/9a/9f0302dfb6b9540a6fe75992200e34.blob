@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style data-parcel-key="75818edee1398edc3cdcf5915f8b145b">
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="a907155190ea7cd1ad0aa6f9bf5c8fbb">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <img src="025f7dcef252a13f4029bdaccec763c7" alt="Snow" style="89757d663645f49db9aa19b1d7aac974">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>TWITTER</i></a>
+			<a href="#"><i>INSTAGRAM 
+			<a href="#"><i>LINKEDIN</i></a>
+  </i></a></div>
+  <div class="column">
+   <img src="a2bef9b6819a4034eb43632c6626e1bf" alt="Snow" style="b63d33572d5c4221005f3201e426be51">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>TWITTER</i></a>
+			<a href="#"><i>INSTAGRAM 
+			<a href="#"><i>LINKEDIN</i></a>
+  </i></a></div>
+  <div class="column">
+    <img src="fab844526915328585cc5ab3d341e9d3" alt="Snow" style="675b3351d9ae312efa3ec393a7880987">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>TWITTER</i></a>
+			<a href="#"><i>INSTAGRAM 
+			<a href="#"><i>LINKEDIN</i></a>
+  </i></a></div>
+  <div class="column">
+     <img src="bc6a239ac460ee6434772042f66bfad8" alt="Snow" style="d65d63ca069b1938c031ae967f224fed">
+		
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="c7ee24f28db2c750ea91a3c9b2d37997">
+  <div id="imgtext"></div>
+</div>
+
+
+
+</body>
+</html>
+<script src="6b2788e56cad6b4ec2ba29e9cd2cb4e0"></script>

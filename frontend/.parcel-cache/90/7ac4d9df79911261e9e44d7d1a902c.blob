@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="f3f3fd527e0fec77711e53d43ba27b6d">
+  <link rel="stylesheet" href="e32465df7dd957e9a1cf1d06bb72dbd2">
+  <link href="7f6a42b0c3c342fbe8712e39c24eb4b5" rel="stylesheet">
+                
+  <title>Job Search</title>
+</head>
+<style data-parcel-key="98f46e1aa3fd71407bf777dedd0fbccf">
+  body {margin:0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:  rgb(43, 36, 34);
+  }
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#333;
+  color: white;
+  
+}
+.btn-block{
+  width: 40%;
+}
+@import url('http://fonts.cdnfonts.com/css/east-octopus---personal-use');
+  </style>
+<body>
+  <ul>
+    <li style="771f9dadce0632e434b1b413473476ca">J O B I F Y</li>
+    <li style="0c7751010eb75833a0f55c02adbf354f"><a class="active" href="#home">Home</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="39fb7d3e34342ff2d0d45b03e9ee3aef">Add Resume</a></li>
+    <li><a href="95e73a4b9a73bb4c0bcb814484fe3280">Upload Resume</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="137116f6632e624c005cc02687534010">About us</a></li>
+  </ul>
+  <header>
+    <br><br>
+    <div class="container">
+      <h1><strong>Job Search Platform</strong> </h1>
+      <h2>Find your perfect job today!</h2>
+      <form id="search-form">
+          <input type="text" class="form-control" placeholder="Job Title" id="search">
+          <br>
+          <input type="text" class="form-control" placeholder="Location" id="location">
+          <br>
+          <button class="btn btn-block btn-primary"><strong></strong></button>
+        </form>
+    </div>
+    <main>
+      <div class="container">
+            <div class="loading-element">
+              <img src="c1f95b3c00bd1727ce483b08d71a03f9" alt="">
+            </div>
+            <div class="result-container"></div>        
+      </div>
+    </main>
+  </header>
+
+
+  <script src="1e9a89f6dd5d5151a83063a4ecc07df4"></script>
+  <footer>
+    <p>Copyright © 2021 JOBIFY  <a href="#" target="_blank"></a> 
+     <a href="cb9b4491ec1424273b342638cd23aac1">Contact us here</a></p>
+   </footer>
+</body>
+</html>

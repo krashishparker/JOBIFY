@@ -1,0 +1,91 @@
+label{
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+  h1{
+    font-family: 'Courier New', monospace;
+  }
+  input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ }
+  label{
+  padding: 5px;
+ }
+  input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  button[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  button[type=submit]:hover {
+  background-color: #45a049;
+}
+  p.para{
+  visibility: hidden;
+}
+  div {
+
+  padding: 100px;
+  padding-left: 50px;
+  
+}
+  .form{
+  background-image:url(b6cd084c8a12ced9a1004bcdb6002783);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+ }
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#333;
+  color: white;
+  
+}
+  .active {
+    background-color:  rgb(43, 36, 34);
+  }

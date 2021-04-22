@@ -1,0 +1,26 @@
+header {
+  padding: 50px;
+  background-image: url(business.HASH_REF_b7e9ea07957fe1fa8b987bd4fca3311e.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+}
+header h2 {
+  font-size: 1.2rem;
+}
+header form {
+  margin-top: 50px;
+  max-width: 400px;
+}
+.card {
+  margin: 25px 0;
+}
+.loading-element {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: none;
+}
+.loading-element.loading {
+  display: block;
+}
+/*# sourceMappingURL=index.HASH_REF_1138ec7b308dab2833af659aa6917115.css.map */

@@ -1,0 +1,4 @@
+var _JobSearch = require('./JobSearch');
+const jobSearch = new _JobSearch.JobSearch('#search-form', '.result-container', '.loading-element');
+jobSearch.setCountryCode();
+jobSearch.configureFormListener();

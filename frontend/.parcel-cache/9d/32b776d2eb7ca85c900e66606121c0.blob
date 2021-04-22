@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 5;
+}
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+body {
+  margin: 0;
+  font-family: Arial;
+  background-image: url("pic.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+   float:left;
+    display: block;
+  margin-left: 135px;
+  margin-right: auto;
+  
+  width: 20%;
+  padding: 50px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+.row{
+	text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:#31ee70;}
+  75%{background-color:rgb(35, 196, 245);}
+  100% {background-color: rgb(216, 47, 112);}
+}

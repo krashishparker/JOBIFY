@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>* {
+  box-sizing: border-box;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  body {
+  margin: 0;
+  font-family: Arial;
+  background-image: url("pic.HASH_REF_cd6bf562a215a28f8fedfbd322d511f6.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+  
+  /* The grid: Four equal columns that floats next to each other */
+  
+  .column {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 50px;
+}
+  
+  /* Style the images inside the grid */
+  
+  .column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+  
+  .column img:hover {
+  opacity: 1;
+}
+  
+  .row{
+	text-align: center;
+}
+  
+  /* Clear floats after the columns */
+  
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+  /* The expanding image container */
+  
+  .container {
+  position: relative;
+  display: none;
+}
+  
+  /* Expanding image text */
+  
+  #imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+  
+  /* Closable button inside the expanded image */
+  
+  .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#">Jobs</a></li>
+		<li><a href="#">Add Resume</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="/about.html">About us</a></li>
+	  </ul>
+	  <br><br>
+<div style="text-align:center
+">
+  <h2>ABOUT US</h2>
+  <p>OUR TEAM MEMBERS</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <img src="/f9.HASH_REF_049e812ff9dd7ecfe14862e9e17627c8.jpg" alt="Snow" style="width:100%
+">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+   <img src="/f8.HASH_REF_468b93f29ea2be7748b2c9f03a6b5047.jpg" alt="Snow" style="width:100%
+">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+    <img src="/f10.HASH_REF_e323a50872cc37c93bc11ecba841532d.jpg" alt="Snow" style="width:100%
+">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>LINKEDIN</i></a>
+  </div>
+  
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%
+">
+  <div id="imgtext"></div>
+</div>
+<p>Copyright © 2021 Job Search  <a href="#" target="_blank"></a> </p>
+
+
+</body>
+</html>
+<script src="/about.HASH_REF_d60e254016b70727b2f4028aae2f199e.js"></script>

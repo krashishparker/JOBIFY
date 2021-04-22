@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="59dbdc33a7e1b247c86487baceeb8e43">
+  <link rel="stylesheet" href="5219bec854ef8a6b88e25c136028c277">
+  <link href="6befd49d1befd40d28ed6c8c4d104eed" rel="stylesheet">
+  <link rel="import" href="a5b1ae90189a18c6140fd340c653d7fa">              
+  <title>Job Search</title>
+</head>
+<style data-parcel-key="68601a176523be0cb0c5b62eb0fb933b">
+  body {margin:0;
+  }
+  header {
+
+    background-image: url(pic2.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+   }
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:  rgb(43, 36, 34);
+  }
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#333;
+  color: white;
+  
+}
+.btn-block{
+  width: 30%;
+}
+pre {
+  background-color: lightgrey;
+  width: 900px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  visibility: hidden;
+}
+@import url('http://fonts.cdnfonts.com/css/east-octopus---personal-use');
+  </style>
+<body>
+  <ul>
+    <li style="0837cd8f725537e7fbfd92357451b2f5"><a href="08c3df01ccdcd21eb0ceadcb71c102c8">J O B I F Y</a></li>
+    <li style="2b624569faa9225fc9e814eda83f3e38"><a class="active" href="#home">Sign up</a></li>
+    <li><a href="#"> Find Jobs</a></li>
+    <li><a href="a5b1ae90189a18c6140fd340c653d7fa">Create Resume</a></li>
+    <li><a href="049bd0d9b50bfd937bfff2ce402033cc">Upload Resume</a></li>
+    <li><a href="b5856144b0f45b2255d9365752d1763d">About us</a></li>
+  </ul>
+  <header>
+    <br><br>
+    <pre id="output"> </pre>
+    <!-- <div class="container">
+         
+      <h1><strong>Job Search Platform</strong> </h1>
+      <h2>Find your perfect job today!</h2>
+      <form id="search-form">
+          <input type="text" class="form-control" placeholder="Job Title , Keyword or Company" id="search">
+          <br>
+          <input type="text" class="form-control" placeholder="Location" id="location">
+          <br>
+          <button class="btn btn-block btn-primary"><strong>SEARCH</strong></button>
+        </form>
+    </div>
+    <main>
+       
+       <div class="container">
+            <div class="loading-element">
+              <img src="src/img/45.svg" alt="">
+            </div>
+            <div class="result-container"></div>        
+      </div>
+    </main> -->
+  </header>
+
+
+  <script src="1dfd6bb17c4078052e2628081ebd0ab2"></script>
+  <script data-parcel-key="6c4e0272dbe6ca07a6bfc370e5b2067f">
+    function display() {
+      event.preventDefault();
+      document.getElementById("demo").style.visibility = "visible";  
+      var name = document.getElementById("name").value;
+      var cname = document.getElementById("cname").value;
+      var deg = document.getElementById("degree").value;
+      var marks = document.getElementById("marks").value;
+      var gpa = document.getElementById("gpa").value;
+      var skill = document.getElementById("skill").value;
+      
+     console.log(name+" "+marks +" "+ skill);
+   document.getElementById("demo").innerHTML = name+"<br>\ "+cname+
+   "<br>\ Graduate in  "+deg+"<br>\ Technical Proficiency in "+ skill+"<br>\ "+ gpa+" CGPA <br>\ "+ document.getElementById("demo").innerHTML;
+   document.getElementById("demo").style.color = "black"; 
+   document.getElementById("demo").style.fontSize="36px";  
+
+
+  }
+ 
+    document.getElementById("hellobutton").addEventListener("click", validate);
+    document.getElementById("hellobutton").addEventListener("click", display);
+</script>
+  <footer>
+    <p>Copyright © 2021 JOBIFY  <a href="#" target="_blank"></a> 
+     <a href="dd6f26218e3c9ba0d2980e10dfbe3129">Contact us here</a></p>
+   </footer>
+</body>
+</html>

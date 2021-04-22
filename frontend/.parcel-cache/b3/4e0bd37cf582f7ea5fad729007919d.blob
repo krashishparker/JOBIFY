@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="aa5dc1a6bbbcb2552e57ef24fa354d79">
+  <link rel="stylesheet" href="2827fa2d5c1cfd9abba83e497dc09e92">
+  <link href="68efd275a09da9978dbabb9aa9d42162" rel="stylesheet">
+                
+  <title>Job Search</title>
+</head>
+<style data-parcel-key="ea18e891f2a2eb7d238ac4256d601016">
+  body {margin:0;
+  }
+  header {
+    padding: 50px;
+    background-image: url(../img/pic1.jpg);
+    background-repeat: no-repeat;
+    height: 590px;
+
+    h2 { 
+        font-size: 1.2rem;
+    }
+
+    form { 
+        margin-top: 50px;
+        max-width: 400px;
+    }
+}
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:  rgb(43, 36, 34);
+  }
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#333;
+  color: white;
+  
+}
+.btn-block{
+  width: 30%;
+}
+@import url('http://fonts.cdnfonts.com/css/east-octopus---personal-use');
+  </style>
+<body>
+  <ul>
+    <li style="b0e2ad806f7c1a8cc403ac554f88f1ed"><a href="ad8ae20a5b6adba014408b92590ab2a3">J O B I F Y</a></li>
+    <li style="239b3827b7db13d65b308fda8b4e42ed"><a class="active" href="#home">Sign up</a></li>
+    <li><a href="#"> Find Jobs</a></li>
+    <li><a href="2903750fc1b414d1f817f5ccfd5da82f">Create Resume</a></li>
+    <li><a href="4338fe17da5a035bd4d1dd03011e9fd8">Upload Resume</a></li>
+    <li><a href="1b0f2ea8f46811e9a6d6e528a6c0a4f5">About us</a></li>
+  </ul>
+  <header>
+    <br><br>
+    <div class="container">
+      <h1><strong>Job Search Platform</strong> </h1>
+      <h2>Find your perfect job today!</h2>
+      <form id="search-form">
+          <input type="text" class="form-control" placeholder="Job Title , Keyword or Company" id="search">
+          <br>
+          <input type="text" class="form-control" placeholder="Location" id="location">
+          <br>
+          <button class="btn btn-block btn-primary"><strong>SEARCH</strong></button>
+        </form>
+    </div>
+    <main>
+      <div class="container">
+            <div class="loading-element">
+              <img src="8e2635fea40cd5a8a66f793aaa091cf6" alt="">
+            </div>
+            <div class="result-container"></div>        
+      </div>
+    </main>
+  </header>
+
+
+  <script src="bbbf4a6343cf0c8e6246436caae3701a"></script>
+  <footer>
+    <p>Copyright © 2021 JOBIFY  <a href="#" target="_blank"></a> 
+     <a href="5eab661e08aae2389aa118b365ceab3b">Contact us here</a></p>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center
+">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <img src="/f9.HASH_REF_049e812ff9dd7ecfe14862e9e17627c8.jpg" alt="Snow" style="width:100%
+">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>TWITTER</i></a>
+			<a href="#"><i>INSTAGRAM 
+			<a href="#"><i>LINKEDIN</i></a>
+  </i></a></div>
+  <div class="column">
+   <img src="/f8.HASH_REF_468b93f29ea2be7748b2c9f03a6b5047.jpg" alt="Snow" style="width:100%
+">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>TWITTER</i></a>
+			<a href="#"><i>INSTAGRAM 
+			<a href="#"><i>LINKEDIN</i></a>
+  </i></a></div>
+  <div class="column">
+    <img src="/f10.HASH_REF_e323a50872cc37c93bc11ecba841532d.jpg" alt="Snow" style="width:100%
+">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>TWITTER</i></a>
+			<a href="#"><i>INSTAGRAM 
+			<a href="#"><i>LINKEDIN</i></a>
+  </i></a></div>
+  <div class="column">
+     <img src="/f7.HASH_REF_50667bb0e02117a04bbea4838396bbbc.jpg" alt="Snow" style="width:100%
+">
+		
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%
+">
+  <div id="imgtext"></div>
+</div>
+
+
+
+</body>
+</html>
+<script src="/about.HASH_REF_d60e254016b70727b2f4028aae2f199e.js"></script>

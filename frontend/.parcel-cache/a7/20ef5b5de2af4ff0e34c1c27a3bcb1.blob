@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+ 
+    <style data-parcel-key="3cc21bba6363eedb0ba0dbfb365ebacb">
+       input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label{
+  padding: 5px;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+p.para{
+  visibility: hidden;
+}
+div {
+  border-radius: 5px;
+  background-color: chartreuse;
+  
+  padding: 20px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="relative">
+        
+        <h1>Add your Resume Details</h1>
+        <div>
+            <form>
+              <label>Candidate Name</label>
+              <br>
+              <input type="text" id="name" placeholder="Candidate Name..">
+              <br>
+              <label>College Name</label>
+              <br>
+              <input type="text" id="cname" class="cname" placeholder="College Name..">
+              <br>
+              <label for="country">Degree</label><br>
+              <input type="text" id="degree" class="degree" placeholder="Degree..">
+              <br>
+              <label for="country">Marks in 12th</label><br>
+              <input type="text" id="marks" class="marks" placeholder="Marks in 12th">
+              <br>
+              <label for="country">CGPA / Percentage in Graduation</label><br>
+              <input type="text" id="gpa" placeholder="CGPA/Percentage ..">
+              <br>
+              <label for="country">Technical Skills</label><br>
+             
+			  <select>
+  <option value="Tony">Iron Man</option>
+  <option value="Steve">Captain America</option>
+</select>
+              <button type="submit" id="hellobutton">Submit</button>
+            </form>
+            <p id="demo" class="para">
+             <button type="submit"><a href="979e73594347ab2648f084394fccab4f">Find Jobs</a></button>
+             
+            </p>
+          </div>
+    </div>
+    <script data-parcel-key="64141cdc63e5ed0a9cb80241a5c3948d">
+      function display() {
+        event.preventDefault();
+        document.getElementById("demo").style.visibility = "visible";  
+        var name = document.getElementById("name").value;
+        var cname = document.getElementById("cname").value;
+        var deg = document.getElementById("degree").value;
+        var marks = document.getElementById("marks").value;
+        var gpa = document.getElementById("gpa").value;
+        var skill = document.getElementById("skill").value;
+       
+     document.getElementById("demo").innerHTML = name+"<br>\ "+cname+
+     "<br>\ "+deg+"<br>\ Marks in 12th "+marks+"<br>\ "+ gpa+"CGPA <br>\ "+skill+" <br>\ "+ document.getElementById("demo").innerHTML;
+     document.getElementById("demo").style.color = "blue";  
+
+    }
+      document.getElementById("hellobutton").addEventListener("click", display);
+      </script>
+    
+</body>
+
+</html>

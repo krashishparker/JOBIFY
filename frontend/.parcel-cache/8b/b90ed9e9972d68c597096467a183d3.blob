@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="cb05a96d97724fd70754b322643b5b40" rel="stylesheet">
+<style data-parcel-key="c5b6ed4f4e431d0672fe58b68030e5ea">
+* {
+  box-sizing: border-box;
+  margin: 5;
+}
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;;
+  color: white;
+}
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+body {
+  margin: 0;
+  font-family: Arial;
+  background-image: url("pic.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+   float:left;
+    display: block;
+  margin-left: 135px;
+  margin-right: auto;
+  
+  width: 20%;
+  padding: 50px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+.row{
+	text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+@import url('http://fonts.cdnfonts.com/css/east-octopus---personal-use');
+</style>
+</head>
+<body>
+	<ul>
+    <li style="1f0b2ca6bb510d29a642b6a044b3db50"><a href="f5b6323d4f59d10919ec033c13b0d7bd">J O B I F Y</a></li>
+       <li style="3b24f49430c405d90a4445cab14cb571"><a class="active" href="#home">Sign up</a></li>
+       <li><a href="5c9ac2e66ffb1ca487842425f4b58324"> Find Jobs</a></li>
+       <li><a href="9bccf45ad30274c72e4af839aa7f0ba8">Create Resume</a></li>
+       <li><a href="ca3f7375f13c673355843a7573c73b7e">Upload Resume</a></li>
+       <li><a href="a3d4837af77b27bb481c665fd387c9a9">About us</a></li>
+  </ul>
+	  <br><br><br><br><br>
+<div style="ec032347332e977a594a2804631a19bf">
+  <h2>ABOUT US</h2>
+  <p>OUR TEAM MEMBERS</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <img src="025f7dcef252a13f4029bdaccec763c7" alt="Snow" style="5ba5575b42d700ca1346141126e93e8a">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="5e6d976ebb640364ce1ddd922bb93d3e">FACEBOOK</a>
+			<a href="798c2bcac044a5f668fbd55c8e2de08e"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+   <img src="a2bef9b6819a4034eb43632c6626e1bf" alt="Snow" style="391d425a53a3483e83bcd15a1cdb5c35">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="d6448a6ffd0249b695e058804c176fdb">FACEBOOK</a>
+			<a href="bf0321094bbd7ecaf96219d87dcee10d"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+    <img src="fab844526915328585cc5ab3d341e9d3" alt="Snow" style="6f9f70aba63271b28a83945ad2dd6782">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="c714ca69956aa6cbf0c7ceac9b27216d">FACEBOOK</a>
+			<a href="fa0595c21d645b2c409a8250ea3e0406"><i>LINKEDIN</i></a>
+  </div>
+  
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="0f99cd8c1bf463370fb5be8c6f901513">
+  <div id="imgtext"></div>
+</div>
+
+<footer>
+ <p>Copyright © 2021 Job Search  <a href="#" target="_blank"></a> 
+  <a href="bf0321094bbd7ecaf96219d87dcee10d">Contact us here</a></p>
+</footer>
+
+</body>
+</html>
+<script src="6b2788e56cad6b4ec2ba29e9cd2cb4e0"></script>

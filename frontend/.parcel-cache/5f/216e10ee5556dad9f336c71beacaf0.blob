@@ -1,0 +1,98 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Job Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Job Portal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
+<script type="application/x-javascript">addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }</script>
+
+
+<!-- Custom Theme files -->
+<link href="/about.HASH_REF_fd2ab90d027c36bc482ca7edea68c68a.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+
+<div class="about_bottom">
+	<div class="container">
+		<h3>Our Team</h3>
+	    <div class="col-md-3 team-member text-center">
+		    <img src="/f9.HASH_REF_049e812ff9dd7ecfe14862e9e17627c8.jpg" class="img-responsive img-circle1" alt="">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#"><i class="fa fa-facebook fa1"> </i></a>
+			<a href="#"><i class="fa fa-twitter fa1"> </i></a>
+			<a href="#"><i class="fa fa-linkedin fa1"> </i></a>
+			<a href="#"><i class="fa fa-instagram fa1"> </i></a>
+		</div>
+		<div class="col-md-3 team-member text-center">
+			<img src="/f8.HASH_REF_468b93f29ea2be7748b2c9f03a6b5047.jpg" class="img-responsive img-circle1" alt="">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#"><i class="fa fa-facebook fa1"> </i></a>
+			<a href="#"><i class="fa fa-twitter fa1"> </i></a>
+			<a href="#"><i class="fa fa-linkedin fa1"> </i></a>
+			<a href="#"><i class="fa fa-instagram fa1"> </i></a>
+		</div>
+		<div class="col-md-3 team-member text-center">
+		    <img src="/f10.HASH_REF_e323a50872cc37c93bc11ecba841532d.jpg" class="img-responsive img-circle1" alt="">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#"><i class="fa fa-facebook fa1"> </i></a>
+			<a href="#"><i class="fa fa-twitter fa1"> </i></a>
+			<a href="#"><i class="fa fa-linkedin fa1"> </i></a>
+			<a href="#"><i class="fa fa-instagram fa1"> </i></a>
+		</div>
+		<div class="col-md-3 team-member text-center">
+	        <img src="/f7.HASH_REF_50667bb0e02117a04bbea4838396bbbc.jpg" class="img-responsive img-circle1" alt="">
+			<h5></h5>
+			<h6></h6>
+			<p>This our Team .
+			Copyright © 2021 Job Search  <a href="#" target="_blank"></a></p>
+			<a href="#"><i class="fa fa-facebook fa1"> </i></a>
+			<a href="#"><i class="fa fa-twitter fa1"> </i></a>
+			<a href="#"><i class="fa fa-linkedin fa1"> </i></a>
+			<a href="#"><i class="fa fa-instagram fa1"> </i></a>
+		</div>
+		<div class="clearfix"> </div>
+	</div>	
+</div>
+<div class="footer">
+	<div class="container">
+
+		<div class="col-md-3 grid_3">
+			<h4>Twitter Widget</h4>
+			<div class="footer-list">
+			  <ul>
+				<li><i class="fa fa-twitter tw1"> </i><p><span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit web design</p></li>
+				<li><i class="fa fa-twitter tw1"> </i><p><span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit web design</p></li>
+				<li><i class="fa fa-twitter tw1"> </i><p><span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit web design</p></li>
+			  </ul>
+			</div>
+		</div>
+		<div class="col-md-3 grid_3">
+			<h4>Job Portal</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<
+  	<div class="col-sm-6 footer_text">
+       <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numqua"</p>
+  	</div>
+  	<div class="clearfix"> </div>
+	<div class="copy">
+		<p>Copyright © 2021 Job Search  <a href="#" target="_blank"></a> </p>
+	</div>
+  
+
+</body>
+</html>		<script src="/about.HASH_REF_d60e254016b70727b2f4028aae2f199e.js"></script>

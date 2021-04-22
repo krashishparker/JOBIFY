@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style data-parcel-key="75818edee1398edc3cdcf5915f8b145b">
+* {
+  box-sizing: border-box;
+  margin: 5;
+}
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;;
+  color: white;
+}
+  ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+body {
+  margin: 0;
+  font-family: Arial;
+  background-image: url("pic.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+   float:left;
+    display: block;
+  margin-left: 135px;
+  margin-right: auto;
+  
+  width: 20%;
+  padding: 50px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+.row{
+	text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:#31ee70;}
+  75%{background-color:rgb(35, 196, 245);}
+  100% {background-color: rgb(216, 47, 112);}
+}
+</style>
+</head>
+<body>
+	<ul>
+    <li style="76404405968b54e1705316086154c3fe">J O B I F Y</li>
+    <li style="1e07a77e1ee543f38fabde4b5f42f121"><a class="active" href="#home">Home</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="9bccf45ad30274c72e4af839aa7f0ba8">Add Resume</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="a3d4837af77b27bb481c665fd387c9a9">About us</a></li>
+  </ul>
+	  <br><br><br>
+<div style="72bc073d483cc9308ce5cabc5006b44c">
+  <h2>ABOUT US</h2>
+  <p>OUR TEAM MEMBERS</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <img src="025f7dcef252a13f4029bdaccec763c7" alt="Snow" style="2e578dc71325dd3c426cd3dcb7e867fd">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="5e6d976ebb640364ce1ddd922bb93d3e">FACEBOOK</a>
+			<a href="798c2bcac044a5f668fbd55c8e2de08e"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+   <img src="a2bef9b6819a4034eb43632c6626e1bf" alt="Snow" style="fb881786874c0c669ea7846b97996d8e">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="d6448a6ffd0249b695e058804c176fdb">FACEBOOK</a>
+			<a href="bf0321094bbd7ecaf96219d87dcee10d"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+    <img src="fab844526915328585cc5ab3d341e9d3" alt="Snow" style="f7814ea9ece269e2b85f618dd5e5200c">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="c714ca69956aa6cbf0c7ceac9b27216d">FACEBOOK</a>
+			<a href="fa0595c21d645b2c409a8250ea3e0406"><i>LINKEDIN</i></a>
+  </div>
+  
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="902d9ded5a4382ef459ff1f56dddd7a2">
+  <div id="imgtext"></div>
+</div>
+
+<footer>
+ <p>Copyright © 2021 Job Search  <a href="#" target="_blank"></a> 
+  <a href="bf0321094bbd7ecaf96219d87dcee10d">Contact us here</a></p>
+</footer>
+
+</body>
+</html>
+<script src="6b2788e56cad6b4ec2ba29e9cd2cb4e0"></script>

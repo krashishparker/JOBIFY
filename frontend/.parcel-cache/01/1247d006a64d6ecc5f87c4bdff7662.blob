@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style data-parcel-key="75818edee1398edc3cdcf5915f8b145b">
+* {
+  box-sizing: border-box;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+body {
+  margin: 0;
+  font-family: Arial;
+  background-image: url("pic.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 50px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+.row
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#">Jobs</a></li>
+		<li><a href="#">Add Resume</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="a3d4837af77b27bb481c665fd387c9a9">About us</a></li>
+	  </ul>
+	  <br><br>
+<div style="59e1d84684d6596c705070552b6ba86c">
+  <h2>ABOUT US</h2>
+  <p>OUR TEAM MEMBERS</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <img src="025f7dcef252a13f4029bdaccec763c7" alt="Snow" style="b63d33572d5c4221005f3201e426be51">
+			<h5>Ashish Kumar</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+   <img src="a2bef9b6819a4034eb43632c6626e1bf" alt="Snow" style="9cf3e805dd51539febb1f8bfacf4724b">
+			<h5>Punit Mittal</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>LINKEDIN</i></a>
+  </div>
+  <div class="column">
+    <img src="fab844526915328585cc5ab3d341e9d3" alt="Snow" style="82698c53db8da817152f8c925d6958b7">
+			<h5>Jay Prakash Mahto</h5>
+			<h6></h6>
+			<p></p>
+			<a href="#">FACEBOOK</a>
+			<a href="#"><i>LINKEDIN</i></a>
+  </div>
+  
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="c7ee24f28db2c750ea91a3c9b2d37997">
+  <div id="imgtext"></div>
+</div>
+<p>Copyright © 2021 Job Search  <a href="#" target="_blank"></a> </p>
+
+
+</body>
+</html>
+<script src="6b2788e56cad6b4ec2ba29e9cd2cb4e0"></script>

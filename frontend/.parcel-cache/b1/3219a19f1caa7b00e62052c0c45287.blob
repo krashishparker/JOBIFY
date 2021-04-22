@@ -1,0 +1,33 @@
+function display() {
+        event.preventDefault();
+        document.getElementById("demo").style.visibility = "visible";
+        document.getElementById("demo").style.transform ="translate(-100px,-380px)";
+        document.getElementById("form").style.visibility = "hidden";  
+        var name = document.getElementById("name").value;
+        var cname = document.getElementById("cname").value;
+        var deg = document.getElementById("degree").value;
+        var marks = document.getElementById("marks").value;
+        var gpa = document.getElementById("gpa").value;
+        var skill = document.getElementById("skill").value;
+        
+       console.log(name+" "+marks +" "+ skill);
+     document.getElementById("demo").innerHTML ="---- Name ----"+name+"<br>\ ---- College Name ---- "+cname+
+     "<br>\ Graduate in  "+deg+"<br>\ Technical Proficiency in "+ skill+"<br>\ "+ gpa+" CGPA <br>\ "+ document.getElementById("demo").innerHTML;
+     document.getElementById("demo").style.color = "black"; 
+     document.getElementById("demo").style.fontSize="36px";  
+ 
+
+    }
+    function validate(){
+  var val1=document.getElementById("name");
+   var val2=document.getElementById("cname");
+   if(val1.value.trim()==""||val2.value.trim()=="")
+   {
+       alert("Some fields are empty");/*we can use html tag 
+       required in input tag to perform the same*/
+       return false;
+   }
+   else return true;
+}  
+      document.getElementById("hellobutton").addEventListener("click", validate);
+      document.getElementById("hellobutton").addEventListener("click", display);

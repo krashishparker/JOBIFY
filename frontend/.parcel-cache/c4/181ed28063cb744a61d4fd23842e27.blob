@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="358011a39bc92648ebd6f303c99ec4fb">
+  <link rel="stylesheet" href="de629c02ea4d462c1e142c7274d8c0d6">
+  <title>Job Search</title>
+</head>
+<style data-parcel-key="1b105e67c21947559a9709733f1187a4">
+  body {margin:0;}
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  </style>
+<body>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="#">Add Resume</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="838b3284a2c48de7f65f9850d7398959">About us</a></li>
+  </ul>
+  <header>
+   
+    <div id="search_wrapper">
+        <div id="search_form" class="clearfix">
+        <h1>UPLOAD RESUME and GET JOB OPTIONS</h1>
+        <br>
+        <p> Upload Resume in ".txt" format  <a href="48b653e8e672ed4277a0cbc46de0e7a0">Convert to .txt here</a></p>
+       
+         <input type="file" name="inputfile" id="inputfile">
+   <br>
+   <pre id="output"> </pre>
+   <a href="979e73594347ab2648f084394fccab4f" class="button">Check Jobs</a>
+
+   <script data-parcel-key="1f7d208fe51121d7023a42974dabaaa7">
+       document.getElementById('inputfile')
+           .addEventListener('change', function() {
+           
+           var fr=new FileReader();
+           fr.onload=function(){
+               document.getElementById('output')
+                       .textContent=fr.result;
+           }
+           
+           fr.readAsText(this.files[0]);
+       })
+   </script>
+          
+   
+</div></div></header></body>
+</html>
+

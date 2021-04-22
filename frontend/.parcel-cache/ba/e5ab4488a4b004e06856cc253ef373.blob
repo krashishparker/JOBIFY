@@ -1,0 +1,95 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+    background:#fff; 
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+#search_wrapper1{
+	margin-top:3em;
+}
+#search_wrapper {
+	margin-top:8em;
+}
+#search_form h1 {
+    color: #222f50;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight:400;
+}
+#search_wrapper p {
+    margin: 20px 0;
+}
+#search_form input[type="text"]{
+    padding: 8px;
+    font-size: 0.85em;
+    margin: 10px 0;
+    border: 1px solid #999;
+    color: #999;
+    background: none;
+    outline: none;
+    font-weight: 300;
+}
+#search_form label {
+    position: relative;
+    z-index: 1;
+}
+#search_form input[type="submit"] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h2.title {
+    font-size: 1.5em;
+    border-bottom: none;
+    color: #ff821c !important;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    padding-bottom: 0;
+    font-weight:400;
+    text-transform: capitalize;
+}
+.cb_style input {
+    border-radius: 3px 3px 3px 3px !important;
+    font-size: 15px;
+    height: 21px !important;
+    width: 195px;
+}
+#city_1 {
+    height: 106px;
+    width: 516px;
+    display: block;
+}
+#city_1 ul {
+    float: left;
+    font-size: 12px;
+    color: #010101;
+    list-style: none;
+    padding:5px 0 0 0;
+    margin-right: 10%;
+}
+#city_1 ul li {
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#city_1 ul.orange li {
+    background: url(665a0bba352f2b8f1c1f9fabd0865906) no-repeat 0 5px;
+}
+#city_1 ul.blue li {
+    background: url(02a9af46ea237bfcc56d04de6cdccbf2) no-repeat 0 5px;
+}

@@ -1,0 +1,31 @@
+function display() {
+        event.preventDefault();
+        document.getElementById("demo").style.visibility = "visible";  
+        var name = document.getElementById("name").value;
+        var cname = document.getElementById("cname").value;
+        var deg = document.getElementById("degree").value;
+        var marks = document.getElementById("marks").value;
+        var gpa = document.getElementById("gpa").value;
+        var skill = document.getElementById("skill").value;
+        
+       console.log(name+" "+marks +" "+ skill);
+     document.getElementById("demo").innerHTML = name+"<br>\ "+cname+
+     "<br>\ Graduate in  "+deg+"<br>\ Technical Proficiency in "+ skill+"<br>\ "+ gpa+" CGPA <br>\ "+ document.getElementById("demo").innerHTML;
+     document.getElementById("demo").style.color = "white"; 
+     document.getElementById("demo").style.fontSize="36px";  
+ 
+
+    }
+      document.getElementById("hellobutton").addEventListener("click", display);
+      function validate(){
+  var val1=document.getElementById("cname");
+   var val2=document.getElementById("name");
+   console.log()
+   if(val1.value.trim()==""||val2.value.trim()=="")
+   {
+       alert("No blanck space is accepted");/*we can use html tag 
+       required in input tag to perform the same*/
+       return false;
+   }
+   else return true;
+}

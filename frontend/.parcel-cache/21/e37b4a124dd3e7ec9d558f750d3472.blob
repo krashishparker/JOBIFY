@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<style data-parcel-key="3cc21bba6363eedb0ba0dbfb365ebacb">
+ label{
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+  h1{
+    font-family: 'Courier New', monospace;
+  }
+ input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ }
+ label{
+  padding: 5px;
+ }
+ input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+p.para{
+  visibility: hidden;
+}
+div {
+  border-radius: 5px;
+  background-image: linear-gradient(140deg, rgb(31, 235, 250) 0%, rgb(10, 153, 248) 50%, rgb(73, 7, 253) 75%);
+  
+  padding: 20px;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin: 0 0 3px 0;
+    padding: 5px ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:  rgb(43, 36, 34);
+  }
+    </style>
+</head>
+
+<body>
+  <ul>
+    <li style="e3867ee2273d8606a4b612331d7fde0d">J O B B I F Y</li>
+    <li style="43ee7f4514ae5c19d5425d26c2a12061"><a class="active" href="#home">Home</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="e04080fc0541164e2bf8289ea3ddbbde">Add Resume</a></li>
+    <li><a href="1d4a85942aa41595b05482dbf28348e2">Upload Resume</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="838b3284a2c48de7f65f9850d7398959">About us</a></li>
+  </ul>
+  <br><br>
+    <div class="relative">
+        
+        <h1>Add your Resume Details</h1>
+        <div>
+            <form>
+              <label>Candidate Name</label>
+              <br>
+              <input type="text" id="name" placeholder="Candidate Name..">
+              <br>
+              <label>College Name</label>
+              <br>
+              <input type="text" id="cname" class="cname" placeholder="College Name..">
+              <br>
+              <label for="degree">Degree</label><br>
+                <select id="degree">
+                <option value="B.Tech">B.Tech</option>
+                <option value="B.com">B.com</option>
+                <option value="BE">BE</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BA">BA</option>
+                <option value="BSc">BSc</option>
+                <option value="BEd">BEd</option>
+                <option value="IMSc">IMSc</option>
+                <option value="MCA">MCA</option>
+               </select>
+              <br>
+              <label for="marks">Marks in 12th</label><br>
+              <input type="text" id="marks" class="marks" placeholder="Marks in 12th">
+              <br>
+              <label for="cgpa">CGPA / Percentage in Graduation</label><br>
+              <input type="text" id="gpa" placeholder="CGPA/Percentage ..">
+              <br>
+              <label for="skill">Technical Skills</label><br>
+              <select id="skill">
+               
+                <option value="Anthropology">Anthropology</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Biotechnology">Biotechnology</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Economics">Economics</option>
+                <option value="Environmental Management">Environmental Management</option>
+                <option value="Human Geography">Human Geography</option>
+                <option value="Journalism">Journalism</option>
+                <option value="Mechanical Engineer">Mechanical Engineer</option>
+                <option value="Electrical and Eelctronics">Electrical and Eelctronics</option>
+                <option value="Food Technology">Food Technology</option>
+                <option value="Marine Engineering">Marine Engineering</option>
+               </select>
+              <br>
+              <button type="submit" id="hellobutton">Submit</button>
+            </form>
+            <p id="demo" class="para">
+             <button type="submit"><a href="979e73594347ab2648f084394fccab4f">Find Jobs</a></button>
+             
+            </p>
+          </div>
+    </div>
+    <script data-parcel-key="cb30b41a4f0d8174dc7be036782a2e5b">
+      function display() {
+        event.preventDefault();
+        document.getElementById("demo").style.visibility = "visible";  
+        var name = document.getElementById("name").value;
+        var cname = document.getElementById("cname").value;
+        var deg = document.getElementById("degree").value;
+        var marks = document.getElementById("marks").value;
+        var gpa = document.getElementById("gpa").value;
+        var skill = document.getElementById("skill").value;
+        
+       console.log(name+" "+marks +" "+ skill);
+     document.getElementById("demo").innerHTML = name+"<br>\ "+cname+
+     "<br>\ "+deg+"<br>\ Technical P"+ skill+"<br>\ "+ gpa+"CGPA <br>\ "+skill+" <br>\ "+ document.getElementById("demo").innerHTML;
+     document.getElementById("demo").style.color = "white"; 
+     document.getElementById("demo").style.fontSize="50px";  
+ 
+
+    }
+      document.getElementById("hellobutton").addEventListener("click", display);
+      </script>
+    
+</body>
+
+</html>

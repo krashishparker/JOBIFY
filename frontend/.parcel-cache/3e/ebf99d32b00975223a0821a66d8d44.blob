@@ -1,0 +1,16 @@
+function display() {
+        event.preventDefault();
+        document.getElementById("demo").style.visibility = "visible";  
+        var name = document.getElementById("name").value;
+        var cname = document.getElementById("cname").value;
+        var deg = document.getElementById("degree").value;
+        var marks = document.getElementById("marks").value;
+        var gpa = document.getElementById("gpa").value;
+        var skill = document.getElementById("skill").value;
+       console.log(name,)
+     document.getElementById("demo").innerHTML = name+"<br>\ "+cname+
+     "<br>\ "+deg+"<br>\ Marks in 12th "+marks+"<br>\ "+ gpa+"CGPA <br>\ "+skill+" <br>\ "+ document.getElementById("demo").innerHTML;
+     document.getElementById("demo").style.color = "blue";  
+
+    }
+      document.getElementById("hellobutton").addEventListener("click", display);

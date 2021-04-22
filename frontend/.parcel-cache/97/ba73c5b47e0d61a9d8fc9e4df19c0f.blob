@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="51c0c652b039ecf99bd08e0f1b477e83">
+  <link rel="stylesheet" href="7aa466a9782dfed53ce80bc626124017">
+  <title>Job Search</title>
+</head>
+<style data-parcel-key="f62060a535bad66032cc836bc77848ac">
+  body {margin:0;}
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  pre {
+  background-color: lightgrey;
+  width: 900px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  visibility: hidden;
+}
+  </style>
+<body>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="#">Add Resume</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="ddb8b9efb24da8a2147ec7b7c632f2de">About us</a></li>
+  </ul>
+  <header>
+   
+    <div id="search_wrapper">
+        <div id="search_form" class="clearfix">
+        <h1>UPLOAD RESUME and GET JOB OPTIONS</h1>
+        <br>
+        <p> Upload Resume in ".txt" format  <a href="1e37a713c75f02c4e884f0f31e9866f6">Convert to .txt here</a></p>
+       
+         <input type="file" name="inputfile" id="inputfile">
+   <br>
+   <pre id="output"> </pre>
+   <a href="3e5179983c887b957a225b96e1cac4f8" class="button">Check Jobs</a>
+
+   <script data-parcel-key="2b1e2a7d1e3ade701e0fe5da1ac4f9a1">
+       document.getElementById('inputfile')
+           .addEventListener('change', function() {
+            event.preventDefault();
+        document.getElementById("output").style.visibility = "visible";  
+           var fr=new FileReader();
+           fr.onload=function(){
+               document.getElementById('output')
+                       .textContent=fr.result;
+           }
+           
+           fr.readAsText(this.files[0]);
+       })
+   </script>
+          
+   
+</div></div></header></body>
+</html>
+

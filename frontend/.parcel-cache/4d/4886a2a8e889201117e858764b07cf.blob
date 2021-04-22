@@ -1,0 +1,25 @@
+header {
+  padding: 50px;
+  background-image: url(1bbb5dbf6eca088cfd6af95f4bc39da6);
+  background-repeat: no-repeat;
+  height: 590px;
+}
+header h2 {
+  font-size: 1.2rem;
+}
+header form {
+  margin-top: 50px;
+  max-width: 400px;
+}
+.card {
+  margin: 25px 0;
+}
+.loading-element {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: none;
+}
+.loading-element.loading {
+  display: block;
+}
